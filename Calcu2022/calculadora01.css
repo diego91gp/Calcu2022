@@ -1,0 +1,155 @@
+html {
+    background-color: rgb(209, 209, 209);
+
+}
+
+body {
+    border: solid rgb(34, 32, 32);
+    border-radius: 7px;
+    width: 550px;
+    height: 560px;
+    margin: 50px auto;
+    background-color: rgba(83, 82, 82, 0.589);
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+    font-size: 8px;
+    box-shadow: -2px -1px 36px 0px rgba(0, 0, 0, 0.75)
+}
+
+
+.visible {
+    width: 550px;
+    height: 490px;
+    overflow: hidden;
+
+}
+
+
+
+header {
+    margin: 6px;
+    height: 60px;
+    width: 100%;
+}
+
+
+header img {
+
+
+
+    display: block;
+    margin: auto;
+
+
+
+}
+
+.display {
+    margin-left: 4px;
+    width: 97%;
+    height: 70px;
+    color: #c0c0c0;
+    text-align: right;
+    font-size: 3em;
+    letter-spacing: 3px;
+    border: #000 1px solid;
+    border-radius: 7px;
+    background-image: -webkit-linear-gradient(top, #3e3e3e 0%, #303030 100%);
+    margin-bottom: 5px;
+    margin-top: 10px;
+
+}
+
+
+.Memoria {
+
+    width: 550px;
+    height: 355px;
+    background-color: rgba(27, 24, 22, 0.952);
+    color: #c0c0c0;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 0.5px;
+    position: relative;
+    top: 0px;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    transition: 115ms ease;
+}
+
+.digitos:hover,
+.operadores:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(177, 177, 177, 0.5);
+}
+
+.igual:hover,
+.memo:hover {
+    background-color: rgb(255, 99, 9);
+}
+
+.digitos:active,
+.operadores:active,
+.igual:active,
+.memo:active {
+    transform: translateY(1px);
+}
+
+.digitos {
+    border-radius: 7px;
+    font-size: 2.5em;
+    width: 24%;
+    height: 40px;
+    margin: 1.8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    color: rgb(0, 0, 0);
+    border: 0.5px ridge rgba(20, 20, 20, 0.514);
+    background-color: rgb(255, 255, 255);
+    outline: none;
+
+
+}
+
+.operadores {
+    font-size: 2.5em;
+    width: 24%;
+    margin: 1.8px;
+    height: 40px;
+    border-radius: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border: 0.5px ridge rgba(20, 20, 20, 0.514);
+    background-color: rgba(0, 0, 0, 0.432);
+    outline: none;
+
+
+}
+
+.memo {
+    margin: 1.8px;
+    font-size: 2.5em;
+    height: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 7px;
+    color: rgb(255, 254, 254);
+    border: 0.5px ridge rgb(49, 45, 45);
+    background-color: rgba(192, 89, 30, 0.664);
+    outline: none;
+    width: 19%;
+
+}
+
+.igual {
+    margin-top: 2px;
+    font-size: 4em;
+    height: 45px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 7px;
+    color: rgb(255, 254, 254);
+    border: 0.5px ridge rgb(49, 45, 45);
+    background-color: rgba(241, 88, 0, 0.664);
+    outline: none;
+    width: 100%;
+
+}
